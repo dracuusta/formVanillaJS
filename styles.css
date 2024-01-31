@@ -1,0 +1,144 @@
+@import url(https://db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse+Bold);
+
+body{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-grow: 1;
+}
+
+img {
+ max-width: 100vw;
+ max-height:100vh;    
+}
+
+
+.left-part{
+ 
+  flex:30%;
+}
+
+.right-part{
+    flex:70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.banner{
+    flex-basis: 40%;
+    background-color: rgba(78, 178, 83, 0.353);
+}
+.text{
+    margin-top: 10vh;
+}
+
+section {
+margin-left:20px;
+box-shadow: 10px 10px 5px rgb(132, 132, 132);
+
+}
+
+.form{
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-row{
+    flex: 0 0 calc(50% - 10px);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="password"],
+.form-row input[type="confirm_password"] {
+    width: 20vw;
+    height: 20px;
+    margin:5px;
+    margin-right:5px;
+   align-items: center;
+}
+
+
+
+#bottom-button{
+    margin-top: 20px;
+    margin-left: 10px;
+      background-color: initial;
+      background-image: linear-gradient(-180deg, #00D775, #00BD68);
+      border-radius: 5px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+      height: 44px;
+      line-height: 44px;
+      outline: 0;
+      overflow: hidden;
+      padding: 0 20px;
+      pointer-events: auto;
+      position: relative;
+      text-align: center;
+      touch-action: manipulation;
+      user-select: none;
+      -webkit-user-select: none;
+      vertical-align: top;
+      white-space: nowrap;
+      width: 10vw;
+      z-index: 9;
+      border: 0;
+    
+   
+}
+#bottom-button:hover {
+    background: #00bd68;
+  }
+
+.bottom{
+    margin:10px;
+  }
+  .bottom-text{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+.left-part{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 20%;/* Adjust the top position as needed */
+    left:calc(50% - 80px);/* Adjust the left position as needed */
+    width: 150px; /* Set the width of the logo */
+    height: 200px; /* Set the height of the logo */
+    background-image: url('odin-lined.png');
+    background-size: cover; 
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+  }
+  
+  a:visited {
+  color: green;
+  }
+  
+  a:hover {
+ color: green;
+  }
+  
+  a:active {
+   color: green;
+  } 
